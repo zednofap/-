@@ -1,4 +1,4 @@
 - inheritance, abstraction
 - modules, functions
-- math
+- math, regex
 -! data science
