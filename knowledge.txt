@@ -1,5 +1,5 @@
 - inheritance, abstraction
 - modules, functions
 - math, regex
-- errors
+- errors, input
 -! data science

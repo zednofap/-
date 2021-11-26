@@ -11,6 +11,7 @@ from 正規表現_1.ファイル_split import anal_スプリット as 知識_8
 from 正規表現_1.ファイル_sub import anal_サブ as 知識_9
 from エラー_1.ファイル_error import anal_エラーがあります as 知識_10
 from エラー_1.ファイル_no_error import anal_エラーなし as 知識_11
+from 入力_1.ファイル_input import anal_入力 as 知識_12
 
 # inheritance, objects, classes
 知識_1.印刷()
@@ -45,3 +46,5 @@ Try it »
 # errors
 知識_10()
 知識_11()
+# input
+知識_12()
