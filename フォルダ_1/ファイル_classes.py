@@ -1,3 +1,4 @@
+# make abstraction, inheritance with classes
 class anal_分析する():
 	 def __init__(self, name, age):
 		 self.name = name
@@ -11,4 +12,4 @@ class 継承(anal_分析する):
 		super().__init__(name, age)
 
 
-x = 継承("Dan", "14")
+x = 継承("Dan", "14") # make a object
