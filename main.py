@@ -9,6 +9,8 @@ from 正規表現_1.ファイル_findall import anal_すべて検索 as 知識_6
 from 正規表現_1.ファイル_search import anal_探す as 知識_7
 from 正規表現_1.ファイル_split import anal_スプリット as 知識_8
 from 正規表現_1.ファイル_sub import anal_サブ as 知識_9
+from エラー_1.ファイル_error import anal_エラーがあります as 知識_10
+from エラー_1.ファイル_no_error import anal_エラーなし as 知識_11
 
 # inheritance, objects, classes
 知識_1.印刷()
@@ -40,3 +42,6 @@ Try it »
 知識_7()
 知識_8()
 知識_9()
+# errors
+知識_10()
+知識_11()
