@@ -1,7 +1,5 @@
-y = min(7, 21, 70) # returns minimum
-x = max(7, 21, 70) # returns maximum
-
-
-def anal_最小最大():
+def anal_最小最大(MIN_MAX):
+	y = min(MIN_MAX) # returns minimum
+	x = max(MIN_MAX) # returns maximum
 	print(y)
 	print(x)

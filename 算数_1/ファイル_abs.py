@@ -1,4 +1,5 @@
-x = abs(-8.71) # returns absolute positive value of a negative number
+# returns absolute positive value of a negative number
 
-def anal_絶対():
+def anal_絶対(ABS):
+	x = ABS
 	print(x)

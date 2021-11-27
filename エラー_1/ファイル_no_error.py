@@ -1,9 +1,9 @@
-def anal_エラーなし():
+def anal_エラーなし(PRINT, NO_ERROR, ERROR, FINALLY):
 	try:
-		print("Candice")
+		print(PRINT)
 	except:
-		print("There is an error!")
+		print(ERROR)
 	else:
-		print("There is no error!")
+		print(NO_ERROR)
 	finally:
-		print("Error block finished")
+		print(FINALLY)

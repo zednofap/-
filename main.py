@@ -13,13 +13,16 @@ from エラー_1.ファイル_error import anal_エラーがあります as 知�
 from エラー_1.ファイル_no_error import anal_エラーなし as 知識_11
 from 入力_1.ファイル_input import anal_入力 as 知識_12
 
+# Required Config log
+from 構成ログ import ファイル_CLASSES_X_NAME, ファイル_CLASSES_X_AGE, ファイル_ERROR, ファイル_NO_ERROR, ファイル_ERROR_PRINT, ファイル_FINALLY, ファイル_INPUT_EX, ファイル_INPUT, ファイル_FINDALL, ファイル_FINDALL_TXT, ファイル_SEARCH_TXT, ファイル_SEARCH, ファイル_SEARCH_PRINT, ファイル_SPLIT_TXT, ファイル_SPLIT, ファイル_SUB_TXT, ファイル_SUB_SEARCH, ファイル_SUB, ファイル_ABS, ファイル_CEIL, ファイル_FLOOR, ファイル_MIN_MAX, ファイル_SQRT
+
 # inheritance, objects, classes
 知識_1.印刷()
 # math
-知識_2()
-知識_3()
-知識_4()
-知識_5()
+知識_2(ファイル_MIN_MAX)
+知識_3(ファイル_ABS)
+知識_4(ファイル_SQRT)
+知識_5(ファイル_CEIL, ファイル_FLOOR)
 # regex
 """
 \A	Returns a match if the specified characters are at the beginning of the string	"\AThe"	Try it »
@@ -39,12 +42,12 @@ Try it »
 \W	Returns a match where the string DOES NOT contain any word characters	"\W"	Try it »
 \Z	Returns a match if the specified characters are at the end of the string
 """
-知識_6()
-知識_7()
-知識_8()
-知識_9()
+知識_6(ファイル_FINDALL, ファイル_FINDALL_TXT)
+知識_7(ファイル_SEARCH_PRINT, ファイル_SEARCH, ファイル_SEARCH_TXT)
+知識_8(ファイル_SPLIT, ファイル_SPLIT_TXT)
+知識_9(ファイル_SUB_SEARCH, ファイル_SUB, ファイル_SUB_TXT)
 # errors
-知識_10()
-知識_11()
+知識_10(ファイル_ERROR, ファイル_FINALLY)
+知識_11(ファイル_ERROR_PRINT,ファイル_NO_ERROR, ファイル_ERROR, ファイル_FINALLY)
 # input
-知識_12()
+知識_12(ファイル_INPUT_EX, ファイル_INPUT)

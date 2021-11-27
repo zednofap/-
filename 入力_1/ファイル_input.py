@@ -1,3 +1,3 @@
-def anal_入力():
-	x = input("Input example:")
-	print("Input: " + x)
+def anal_入力(INPUT_EX, INPUT):
+	x = input(INPUT_EX)
+	print(INPUT + x)

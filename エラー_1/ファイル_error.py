@@ -1,7 +1,7 @@
-def anal_エラーがあります():
+def anal_エラーがあります(ERROR, FINALLY):
 	try:
 		print(x)
 	except:
-		print("There is an error!")
+		print(ERROR)
 	finally:
-		print("Error block finished")
+		print(FINALLY)
