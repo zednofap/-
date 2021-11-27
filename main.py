@@ -1,5 +1,3 @@
-# idk bored  i wanna use japanese lol (i dont have that much python knowledge i mostly code node js)
-
 from フォルダ_1.ファイル_classes import x as 知識_1
 from 算数_1.ファイル_min_max import anal_最小最大 as 知識_2
 from 算数_1.ファイル_abs import anal_絶対 as 知識_3
